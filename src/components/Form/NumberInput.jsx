@@ -1,13 +1,15 @@
-import React from "react";
+import React from 'react'
 
-export const NumberInput = () => {
+export const NumberInput = ({ userInput, setUserInput }) => {
 	return (
 		<input
-			type="number"
-			placeholder="Kwota"
-			className="amount-input"
-			id="amount-input"
+			value={userInput}
+			onChange={e => setUserInput(e.target.value)}
+			type='number'
+			placeholder='Kwota'
+			className='amount-input'
+			id='amount-input'
 			required
 		/>
-	);
-};
+	)
+}
