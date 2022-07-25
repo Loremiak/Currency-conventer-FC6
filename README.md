@@ -9,7 +9,7 @@ Project is created with:
 * React
 	
 ## Setup
-Live demo: <a href="zingy-pastelito-feffda.netlify.app/">zingy-pastelito-feffda.netlify.app</a>
+Live demo: <a href="https://zingy-pastelito-feffda.netlify.app/">zingy-pastelito-feffda.netlify.app</a>
 
 Or:
 
